@@ -1,0 +1,110 @@
+// @import '~@schibstedspain/sui-theme/lib/index';
+.sktest-StarInput {
+  border-radius: 0.2em;
+  $base-padding: 0.5em;
+  padding: $base-padding;
+  width: 100%;
+  height: 1.5em;
+  margin: 0.2em;
+  
+  $mercury: #281347;
+  $venus: #594093;
+  $earth: #151515;
+  $mars: #D1A0E2;
+  $jupiter: #6F367D;
+  $saturn: #3A1451;
+  $uranus: black;
+  &:focus {
+    outline: none;
+  }
+  &.is-rounded {
+    border-radius: 0.5em;
+  }
+  &--neutron {
+    padding: $base-padding;
+  }
+  &--dwarf {
+    padding: $base-padding * 2;
+  }
+  &--giant {
+    padding: $base-padding * 3;
+  }
+  &--super-giant {
+    padding: $base-padding * 4;
+  }
+  &--left {
+    text-align: left;
+  }
+  &--center {
+    text-align: center;
+  }
+  &--right {
+    text-align: right;
+  }
+  &--mercury {
+    border-color: $mercury;
+    &::placeholder {
+      color: $mercury;
+    }
+    &:focus {
+      outline: $mercury 3px solid;
+    }
+  }
+  &--venus {
+    border-color: $venus;
+    &::placeholder {
+      color: $venus;
+    }
+    &:focus {
+      outline: $venus 3px solid;
+    }
+  }
+  &--earth {
+    border-color: $earth;
+    &::placeholder {
+      color: $earth;
+    }
+    &:focus {
+      outline: $earth 3px solid;
+    }
+  }
+  &--mars {
+    border-color: $mars;
+    &::placeholder {
+      color: $mars;
+    }
+    &:focus {
+      outline: $mars 3px solid;
+    }
+  }
+  &--jupiter {
+    border-color: $jupiter;
+    &::placeholder {
+      color: $jupiter;
+    }
+    &:focus {
+      outline: $jupiter 3px solid;
+    }
+  }
+  &--saturn {
+    border-color: $saturn;
+    &::placeholder {
+      color: $saturn;
+    }
+    &:focus {
+      outline: $saturn 3px solid;
+    }
+  }
+  &--uranus {
+    border-color: $uranus;
+    &::placeholder {
+      color: $uranus;
+    }
+    &:focus {
+      outline: $uranus 3px solid;
+    }
+  }
+  &.is-rock {
+    font-weight: bold;
+  }
+}

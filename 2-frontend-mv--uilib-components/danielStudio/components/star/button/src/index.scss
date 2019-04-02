@@ -1,0 +1,206 @@
+@import '~@schibstedspain/sui-theme/lib/index';
+
+$mercury: #281B47;
+$venus: #594093;
+$earth: #151515;
+$mars: #D1A0E2;
+$jupiter: #6F367D;
+$saturn: #3A1451;
+$uranus: rgb(0,0,0);
+$base-size: 2em;
+
+.sktest-StarButton {
+  border-width: 2px;
+  margin: 2px;
+  border-style: solid;
+  color: white;
+  width: auto;
+
+  &:focus{
+    outline: none;
+  }
+  
+  &--neuron {
+    font-size: $base-size*0.5;
+  }
+  
+  &--dwarf {
+    font-size: $base-size;
+  }
+
+  &--giant {
+    font-size: $base-size*1.5;
+  }
+
+  &--super-giant {
+    font-size: $base-size*2;
+  }
+
+  //_________ROCK______________//
+
+  &--mercury.rock  {
+    background-color: #281B47;
+    border-color: #281B47;
+    border-radius: 0.2em;
+
+    &:hover  {
+      color: #281B47;
+      background-color: white;
+    }
+  }
+
+
+  &--venus.rock  {
+    background-color: #594093;
+    border-color: #594093;
+    border-radius: 0.2em;
+
+    &:hover  {
+      color: #594093;
+      background-color: white;
+    }
+  }
+
+
+  &--earth.rock  {
+    background-color: #151515;
+    border-color: #151515;
+    border-radius: 0.2em;
+
+    &:hover  {
+      color: #151515;
+      background-color: white;
+  
+    }
+  }
+
+
+  &--mars.rock  {
+    background-color: #D1A0E2;
+    border-color: #D1A0E2;
+    border-radius: 0.2em;
+
+    &:hover  {
+      color: #D1A0E2;
+      background-color: white;
+    }
+  }
+
+
+  &--jupiter.rock  {
+    background-color: #6F367D;
+    border-color: #6F367D;
+    border-radius: 0.2em;
+
+    &:hover  {
+      color: #6F367D;
+      background-color: white;
+    }
+  }
+
+  
+  &--saturn.rock  {
+    background-color: #3A1451;
+    border-color: #3A1451;
+    border-radius: 0.2em;
+
+    &:hover  {
+      color: #3A1451;
+      background-color: white;
+    }
+  }
+
+  
+  &--uranus.rock  {
+    background-color: rgb(0,0,0);
+    border-color: rgb(0,0,0);
+    border-radius: 0.2em;
+
+    &:hover  {
+      color: rgb(0,0,0);
+      background-color: white;
+    }
+  }
+
+
+
+  //_________GAS______________//
+
+  &--mercury.gas {
+    border: none;
+    color: #281B47;
+    background: none;
+
+    &:hover  {
+      border-bottom: 2px #281B47 solid;
+    }
+  }
+
+
+  &--venus.gas  {
+    border: none;
+    background: none;
+    color: #594093;
+
+    &:hover  {
+      border-bottom: 2px #594093 solid;
+    }
+  }
+
+
+  &--earth.gas  {
+    border: none;
+    background: none;
+    color: #151515;
+
+    &:hover  {
+      border-bottom: 2px #151515 solid;
+    }
+  }
+
+
+  &--mars.gas  {
+    border: none;
+    background: none;
+    color:  #D1A0E2;
+
+    &:hover  {
+      border-bottom: 2px #D1A0E2 solid;
+    }
+  }
+  
+
+  &--jupiter.gas  {
+    border: none;
+    background: none;
+    color:  #6F367D;
+
+    &:hover  {
+      border-bottom: 2px #6F367D solid;
+    }
+  }
+
+
+  &--saturn.gas  {
+    border: none;
+    background: none;
+    color:  #3A1451;
+
+    &:hover  {
+      border-bottom: 2px #3A1451 solid;
+    }
+  }
+  
+
+  &--uranus.gas  {
+    border: none;
+    background: none;
+    color:  rgb(0,0,0);
+
+    &:hover  {
+      border-bottom: 2px rgb(0,0,0) solid;
+    }
+  }
+  
+
+}

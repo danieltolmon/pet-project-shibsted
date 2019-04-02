@@ -1,0 +1,36 @@
+return (<div>
+<h2>Normal Input</h2>
+<StarInput placeholder="Normal input"/>
+<h2>Rounded</h2>
+<StarInput placeholder="Rounded input" rounded/>
+<h2>Size: Neutron</h2>
+<StarInput placeholder="Neutron input" size="neutron"/>
+<h2>Size: Dwarf</h2>
+<StarInput placeholder="Dwarf input" size="dwarf"/>
+<h2>Size: Giant</h2>
+<StarInput placeholder="Giant input" size="giant"/>
+<h2>Size: Super Giant</h2>
+<StarInput placeholder="Super Giant input" size="super-giant"/>
+<h2>Position: Center</h2>
+<StarInput placeholder="Centered text input" position="center"/>
+<h2>Position: Left</h2>
+<StarInput placeholder="Left text input" position="left"/>
+<h2>Position: Right</h2>
+<StarInput placeholder="Right text input" position="right"/>
+<h2>Rock</h2>
+<StarInput placeholder="Rock input" rock/>
+<h2>Color: Mercury</h2>
+<StarInput placeholder="Mercury input" color="mercury"/>
+<h2>Color: Venus</h2>
+<StarInput placeholder="Venus input" color="venus"/>
+<h2>Color: Earth</h2>
+<StarInput placeholder="Earth input" color="earth"/>
+<h2>Color: Mars</h2>
+<StarInput placeholder="Mars input" color="mars"/>
+<h2>Color: Jupiter</h2>
+<StarInput placeholder="Jupiter input" color="jupiter"/>
+<h2>Color: Saturn</h2>
+<StarInput placeholder="Saturn input" color="saturn"/>
+<h2>Color: Uranus</h2>
+<StarInput placeholder="Uranus input" color="uranus"/>
+</div>)

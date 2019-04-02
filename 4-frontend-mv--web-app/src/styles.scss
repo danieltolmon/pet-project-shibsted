@@ -1,0 +1,144 @@
+@import '~@s-ui/react-atom-spinner/lib/index';
+@import '../../2-frontend-mv--uilib-components/danielStudio/components/star/range/src/index.scss';
+@import '../../2-frontend-mv--uilib-components/danielStudio/components/star/input/src/index.scss';
+@import '../../2-frontend-mv--uilib-components/danielStudio/components/star/button/src/index.scss';
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 100%;
+}
+.home-container{
+    margin: 5%;
+
+    h1{
+        text-align: center;
+        font-size: 3em;
+        font-family: 'Amatic SC', cursive;
+    }
+
+}
+.home-results{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.home-card{
+    width: 300px;
+    border: 2px black solid;
+    margin: 1em;
+
+    &:hover{
+        box-shadow: 0 0 1rem black
+    }
+
+    a{
+        color: black;
+        text-decoration: none;
+        margin: 5px;
+    }
+}
+
+.atomCard-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h2, p {
+       text-align: center; 
+    }
+}
+
+.search-range{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    span{
+        margin: auto 10px;
+    }
+}
+
+.home-search{
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+}
+
+.detail-container{
+    margin: 5%;
+
+    h2{
+        text-align: center;
+        font-size: 3em;
+        font-family: 'Amatic SC', cursive;
+    }
+
+}
+
+.search-form{
+    display: flex
+}
+
+.spinner-container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.detail-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.detail-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+@media (min-width: 800px){
+    .detail-info{
+        flex-direction: row;
+    }
+    .detail-text{
+        margin: 3em;
+        width: 100%;
+        max-width: 500px;
+    
+        &-first{
+            margin-top: 0;
+        }
+    }
+}
+.detail-image{
+    img{
+        max-width: 300px;
+    }
+    div{
+        margin-top: 5px;
+        text-align: center;
+        border: 2px black solid;
+        border-radius: 0.5em;
+        font-size: 1.5em;
+    }
+}
+
+.detail-rating{
+    &-bad{
+        background-color: #EDC7C1;
+        max-width: 300px;
+    }
+    &-medium{
+        background-color: #FBF1D8;
+        max-width: 300px;
+    }
+    &-good{
+        background-color: #DEF2D6;
+        max-width: 300px;
+    }
+}

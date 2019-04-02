@@ -1,0 +1,79 @@
+return (
+    <React.Fragment>
+    <h2> Type: Rock </h2>
+    <div>
+        <StarButton name='Marti' type='rock' size='neutron' color='mercury' />
+        <StarButton name='Marti' type='rock' size='neutron' color='venus' />
+        <StarButton name='Marti' type='rock' size='neutron' color='earth' />
+        <StarButton name='Marti' type='rock' size='neutron' color='mars' />
+        <StarButton name='Marti' type='rock' size='neutron' color='jupiter' />
+        <StarButton name='Marti' type='rock' size='neutron' color='saturn' />
+        <StarButton name='Marti' type='rock' size='neutron' color='uranus' />
+    </div>
+    <div>
+        <StarButton name='Marti' type='rock' size='dwarf' color='mercury' />
+        <StarButton name='Marti' type='rock' size='dwarf' color='venus' />
+        <StarButton name='Marti' type='rock' size='dwarf' color='earth' />
+        <StarButton name='Marti' type='rock' size='dwarf' color='mars' />
+        <StarButton name='Marti' type='rock' size='dwarf' color='jupiter' />
+        <StarButton name='Marti' type='rock' size='dwarf' color='saturn' />
+        <StarButton name='Marti' type='rock' size='dwarf' color='uranus' />
+    </div>
+    <div>
+        <StarButton name='Marti' type='rock' size='giant' color='mercury' />
+        <StarButton name='Marti' type='rock' size='giant' color='venus' />
+        <StarButton name='Marti' type='rock' size='giant' color='earth' />
+        <StarButton name='Marti' type='rock' size='giant' color='mars' />
+        <StarButton name='Marti' type='rock' size='giant' color='jupiter' />
+        <StarButton name='Marti' type='rock' size='giant' color='saturn' />
+        <StarButton name='Marti' type='rock' size='giant' color='uranus' />
+    </div>
+    <div>
+        <StarButton name='Marti' type='rock' size='super-giant' color='mercury' />
+        <StarButton name='Marti' type='rock' size='super-giant' color='venus' />
+        <StarButton name='Marti' type='rock' size='super-giant' color='earth' />
+        <StarButton name='Marti' type='rock' size='super-giant' color='mars' />
+        <StarButton name='Marti' type='rock' size='super-giant' color='jupiter' />
+        <StarButton name='Marti' type='rock' size='super-giant' color='saturn' />
+        <StarButton name='Marti' type='rock' size='super-giant' color='uranus' />
+    </div>
+    <br/><br/><br/>
+    <h2> Type: Gas </h2>
+    <div>
+        <StarButton name='Marti' type='gas' size='neutron' color='mercury' />
+        <StarButton name='Marti' type='gas' size='neutron' color='venus' />
+        <StarButton name='Marti' type='gas' size='neutron' color='earth' />
+        <StarButton name='Marti' type='gas' size='neutron' color='mars' />
+        <StarButton name='Marti' type='gas' size='neutron' color='jupiter' />
+        <StarButton name='Marti' type='gas' size='neutron' color='saturn' />
+        <StarButton name='Marti' type='gas' size='neutron' color='uranus' />
+    </div>
+    <div>
+        <StarButton name='Marti' type='gas' size='dwarf' color='mercury' />
+        <StarButton name='Marti' type='gas' size='dwarf' color='venus' />
+        <StarButton name='Marti' type='gas' size='dwarf' color='earth' />
+        <StarButton name='Marti' type='gas' size='dwarf' color='mars' />
+        <StarButton name='Marti' type='gas' size='dwarf' color='jupiter' />
+        <StarButton name='Marti' type='gas' size='dwarf' color='saturn' />
+        <StarButton name='Marti' type='gas' size='dwarf' color='uranus' />
+    </div>
+    <div>
+        <StarButton name='Marti' type='gas' size='giant' color='mercury' />
+        <StarButton name='Marti' type='gas' size='giant' color='venus' />
+        <StarButton name='Marti' type='gas' size='giant' color='earth' />
+        <StarButton name='Marti' type='gas' size='giant' color='mars' />
+        <StarButton name='Marti' type='gas' size='giant' color='jupiter' />
+        <StarButton name='Marti' type='gas' size='giant' color='saturn' />
+        <StarButton name='Marti' type='gas' size='giant' color='uranus' />
+    </div>
+    <div>
+        <StarButton name='Marti' type='gas' size='super-giant' color='mercury' />
+        <StarButton name='Marti' type='gas' size='super-giant' color='venus' />
+        <StarButton name='Marti' type='gas' size='super-giant' color='earth' />
+        <StarButton name='Marti' type='gas' size='super-giant' color='mars' />
+        <StarButton name='Marti' type='gas' size='super-giant' color='jupiter' />
+        <StarButton name='Marti' type='gas' size='super-giant' color='saturn' />
+        <StarButton name='Marti' type='gas' size='super-giant' color='uranus' />
+    </div>
+</React.Fragment>
+)
